@@ -1,0 +1,1 @@
+{extends file="layout.html"}{block name="cuerpo"}<section class="formulario"><h2>Bienvenido, {$usuario}</h2>{if $propietario}<p>Como propietario puede listar y modificar todos los amigos.</p>{else}<p>Como amigo puede consultar y modificar sus propios datos.</p>{/if}<a class="boton" href="personas.php">Gestionar personas</a></section>{/block}
